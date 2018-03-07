@@ -193,8 +193,12 @@ body{
 /* content css */
 #mycontent{
 		background-color: white;
-		padding:0;
-		margin:0;
+		padding:20px;
+		margin:0px;
+}
+#mycontent hr{
+	border: 3px solid #f8931d;
+	position: relative;
 }
 /* end of content */
 
