@@ -191,19 +191,86 @@ body{
 
 
 
-/* content css */
+/* content css with different content versions
+	depending on the page*/
 #mycontent{
 		background-color: white;
 		padding:20px;
 		margin:0px;
+		font-size: 15px;			/* version 1*/
 }
 #mycontent hr{
 	border: 3px solid #f8931d;
 	position: relative;
 }
+
+
+#mycontent2{
+		background-color: white;
+		padding:20px;
+		margin:0px;
+		font-size: 13px
+}
+#mycontent2 hr{
+	border: 3px solid #f8931d;		/*version 2 */
+	position: relative;
+}
+#mycontent2 img{
+	display: inline-block;
+	height: 283px; 
+	width: 240px; 
+	margin-right: 10px;
+
+}
+#mycontent3{
+		background-color: white;
+		padding:20px;
+		margin:0px;
+		font-size: 13px
+}
+#mycontent3 hr{
+	border: 3px solid #f8931d;  	/* version 3 */
+	position: relative;
+}
+#mycontent3 img{
+	display: inline-block;
+	height: 239px; 
+	width: 313px; 
+	margin-right: 10px;
+
+}
+#mycontent4{
+		background-color: white;
+		padding:20px;
+		margin:0px;
+		font-size: 13px
+}
+#mycontent4 hr{
+	border: 1px solid black;		/* version 4 */
+	position: relative;
+}
+#mycontent4 img{
+	display: inline-block;
+	height: 153px; 
+	width: 318px; 
+	margin-right: 10px;
+
+}
+#mycontent5{
+		background-color: white;
+		padding:20px;
+		margin:0px;
+		font-size: 13px				/* version 5 */
+}
+#mycontent5 img{
+	display: block;
+	height: 176px; 
+	width: 257px; 
+	margin-right: 10px;
+	
+
+}
 /* end of content */
-
-
 
 /* start of footer */
 #myfooter{
@@ -216,16 +283,59 @@ body{
 }
 /* end of footer */
 
-.socialfeed img{
-	display: inline-block; 
-	height: 46px; 
-	width: 42px;
-}
 
-.featable img{
+
+/* some extra css */
+.socialfeed img{
+	display: inline-block; /*css for social media icons*/
+	height: 35px; 
+	width: 35px;
+}
+/* css for featured news */
+.featable img{				
 	height:67px; 
 	width:63px;
 }
 .afea td{
 	border: 1px solid grey;
+}							
+/* end of featured news css */
+
+
+/* bottom content of index */
+#matsu img{
+	display: inline-block;
+	left: 30px;
+	height: 281px;
+	width: 191px;
+	position: relative;
+	margin-right: 25px;
 }
+/* end of bottom content */
+
+
+
+/* css for sidebar navigation */
+.myul{
+	list-style: none;
+	display: inline-block;
+	padding-top: 0;
+}
+.myul li{
+	display: inline-block;
+	margin-right: 15px;
+}
+.myul li a{
+	text-decoration: none;
+	font-weight: bold;
+	font-size: 12px;
+}
+.myul li a:hover{
+	color:orange;
+}
+#sideul li a{
+	text-decoration: none;
+
+}
+/* end of sidebar navigation */
+/* end of extra css */
